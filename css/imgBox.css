@@ -1,0 +1,29 @@
+/*thumbnail images*/
+#img1{
+	background-image: url("../images/p1/moudaMain.png");
+}
+
+#img2{
+	background-image: url("../images/p2/haven_thumb.png");
+}
+
+#img3{
+	background-image: url("../images/p3/app_thumb.png");
+}
+
+#img4{
+	background-image: url("../images/p4/pkp_thumb.png");
+}
+
+#img5{
+	background-image: url("../images/p5/graphic_thumb.png");
+}
+
+#img6{
+	background-image: url("../images/harmony/harmony_thumb.png");
+}
+
+#img7{
+	background-image: url("../images/MSR/dashboard.png");
+}
+

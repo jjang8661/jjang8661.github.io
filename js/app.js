@@ -51,6 +51,16 @@ angular.module('MainApp', ['ngSanitize', 'ui.router','ui.bootstrap'])
 			url: '/harmony',
 			templateUrl: 'partials/harmony.html'
 		})
+
+		.state('MSR_sponsored', {
+			url: '/MSR_sponsored',
+			templateUrl: 'partials/MSR_sponsored.html'
+		})
+
+		.state('test', {
+			url: '/test',
+			templateUrl: 'partials/test.html'
+		})
 	$urlRouterProvider.otherwise('/');
 
 })
