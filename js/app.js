@@ -70,7 +70,7 @@ angular.module('MainApp', ['ngSanitize', 'ui.router','ui.bootstrap'])
 			url: '/test',
 			templateUrl: 'partials/test.html'
 		})
-	// $urlRouterProvider.otherwise('/');
+	$urlRouterProvider.otherwise('/');
 
 })
 
