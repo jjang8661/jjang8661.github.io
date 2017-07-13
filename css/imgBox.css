@@ -1,18 +1,14 @@
 /*thumbnail images*/
 #img1{
-	background-image: url("../images/p1/moudaMain.png");
+	background-image: url("../images/p1/thumb(mouda).png");
 }
 
 #img2{
-	background-image: url("../images/p2/haven_thumb.png");
+	background-image: url("../images/p2/thumb(haven).png");
 }
 
 #img3{
-	background-image: url("../images/p3/app_thumb.png");
-}
-
-#img4{
-	background-image: url("../images/p4/pkp_thumb.png");
+	background-image: url("../images/p3/thumb(appetite).png");
 }
 
 #img5{
@@ -24,6 +20,10 @@
 }
 
 #img7{
-	background-image: url("../images/MSR/dashboard.png");
+	background-image: url("../images/MSR/dashboard2.png");
+}
+
+#imgKloset{
+	background-image: url("../images/kloset/thumb(kloset).png");
 }
 

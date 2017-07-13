@@ -71,7 +71,7 @@ body {
 }
 
 #imgEmpty{
-	background-image: url("../images/pencil.png");
+	background-image: url("../images/palette.png");
 	box-shadow: none !important;
 }
 
@@ -168,23 +168,29 @@ footer {
 	text-align: center;
 	position: relative;
 	bottom:0px;
-	color: rgba(128,18,75,0.8);
+	color: #999999;
 }
 
 footer>p {
 	margin:0px;
-	color: black;
+	color: #999999;
 	opacity: 0.5;
 }
 
 footer a:visited, footer a:link {
-	color: rgba(128,18,75,0.8);
+	color: #999999;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
 }
 
+footer a:hover {
+	color: rgba(128,18,75,0.8);
+	text-decoration: none;
+}
 
-
+footer hr {
+	border-color: 999999;
+}
 h1, h2, h3{
    font-family: "Helvetica Neue", "Helvetica", sans-serif;
    color: #999999;
@@ -197,9 +203,7 @@ h2{
 }
 
 hr {
-	border-color: #731d48;
-	margin-left: 4em;
-	margin-right: 4em;
+	border-color: #f0f0f0;
 }
 
 .titleImg {
@@ -499,8 +503,15 @@ hr {
 	color: white;
 }
 
-.description{
+.description, .description-sub{
 	text-align: center;
+	padding-right: 10em;
+	padding-left: 10em;
+	margin-bottom: 1em;
+}
+
+.description p{
+	text-align: left;
 }
 
 .current {
@@ -605,10 +616,19 @@ a.active:link, a.active:visited {
 }
 
 .floatingRight{
-	position: fixed;
-	top: 50%;
-	left: 95%;
+	position: absolute;
+	top: 15%;
+	left: 93%;
 	z-index:9999;
+	max-width: 50px;
+}
+
+.arrows {
+	opacity: 0.5;
+}
+
+.arrows:hover {
+	opacity: 1;
 }
 
 .floatingRight .tooltiptext {
@@ -623,20 +643,20 @@ a.active:link, a.active:visited {
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    top: 5%;
+    top: 45%;
     right: 105%; 
 }
 
 .floatingRight:hover .tooltiptext {
     visibility: visible;
-    background-color: rgba(128,18,75,0.8);
 }
 
 .floatingLeft{
-	position: fixed;
-	top: 50%;
+	position: absolute;
+	top: 15%;
 	right: 95%;
 	z-index:9999;
+	max-width: 50px;
 }
 
 .floatingLeft .tooltiptext {
@@ -651,13 +671,12 @@ a.active:link, a.active:visited {
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    top: 5%;
+    top: 45%;
     left: 105%; 
 }
 
 .floatingLeft:hover .tooltiptext {
     visibility: visible;
-    background-color: rgba(128,18,75,0.8);
 }
 
 
@@ -677,17 +696,44 @@ a.active:link, a.active:visited {
 	100%{opacity:1;}
 }*/
 
-.partHead img{ 
-	width: 100%;
-	height: 300px;
+#arrowTop {
+	max-height: 10%;
+	position: fixed;
+	top: 80%;
+	left: 90%;
+	z-index: 999;
 }
 
 .partHead img{ 
 	width: 100%;
-	height: 300px;
+	height: 400px;
 }
 
-.rightBox a:visited, .rightBox a:link {
+.infoView {
+	position: absolute;
+	left: 0px;
+	top: 400px;
+	z-index: 999;
+	height: 90px;
+	width: 100%;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	margin: 0px;
+}
+
+.infoView .row {
+	width: 90%;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 7%
+}
+
+.infoView strong {
+	color: #aaaaaa;
+}
+
+.description>p a:visited, .description>p a:link {
 	color: rgba(128,18,75,0.8);
-	text-decoration: none;
+	text-decoration: underline;
 }

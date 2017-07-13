@@ -49,19 +49,28 @@ angular.module('MainApp', ['ngSanitize', 'ui.router','ui.bootstrap'])
 
 		.state('harmony', {
 			url: '/harmony',
-			templateUrl: 'partials/harmony.html'
+			templateUrl: 'partials/harmony.html',
+			onEnter: scrollContent
+
 		})
 
 		.state('MSR_sponsored', {
 			url: '/MSR_sponsored',
-			templateUrl: 'partials/MSR_sponsored.html'
+			templateUrl: 'partials/MSR_sponsored.html',
+			onEnter: scrollContent
+		})
+
+		.state('kloset', {
+			url: '/kloset',
+			templateUrl: 'partials/kloset.html',
+			onEnter: scrollContent
 		})
 
 		.state('test', {
 			url: '/test',
 			templateUrl: 'partials/test.html'
 		})
-	$urlRouterProvider.otherwise('/');
+	// $urlRouterProvider.otherwise('/');
 
 })
 
