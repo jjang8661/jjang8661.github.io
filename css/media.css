@@ -1,0 +1,119 @@
+/* For phones */
+@media (min-width: 375px) and (max-width: 768px){ 
+	.navbar {
+		width: 100%;
+		margin: auto;
+		font-size: 16px;
+		padding: 5px;
+	}
+
+	#menu-center {
+		float: left;
+	}
+
+	.picBox .picBoxMini {
+		margin-left: 0px;
+	}
+
+	.picBoxMini {
+		height: 500px;
+		margin-bottom: 2em;
+	}
+
+	#navLogo {
+		position: absolute;
+		left: 1.5em;
+		top: 5px;
+	}
+
+	#workSection {
+		padding: 0px;
+	}
+
+	.image-container {
+		margin-left: 0.5em !important;
+		margin-bottom:  0px !important; 
+	}
+
+	footer {
+		font-size: 12px;
+		margin-top: 2em;
+		padding: 0px;
+		padding-bottom: 10px;
+	}
+
+	footer>hr {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#arrowTop {
+		visibility: hidden;
+	}
+
+	.current {
+		color: rgba(128,18,75,0.8) !important;
+	}
+
+	#skillSection {
+		min-height: 700px;
+
+	}
+
+	#skillSection>h2 {
+		display: none;
+	}
+
+	.homeSections {
+     height: 100%; 
+     padding-top: 0px; 
+ 	}
+
+    .skillBox {
+    	width: 90% !important;
+    	margin-left: auto !important;
+    	margin-right: auto;
+    	margin-bottom: 2em;
+    }
+
+    .nameSection {
+    	font-size: 14px;
+    }
+
+    .nameSub, #profileText{
+    	width: 70%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+
+    #btnBox {
+    	width: 80%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-left: 2em;
+    	padding-right: 2em;
+    }
+
+    #btnBox>.mainBtn {
+    	padding-left: 0.5em;
+    	padding-right: 0.5em;
+    	font-weight: 500;
+    	margin-left: 0.5em !important;
+    	margin-right: 0.5em !important;
+    }
+    #profilePic  {
+    	width: 100%;
+    	height: 40vh;
+    }
+
+    #profileMsg {
+    	width: 80%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+}
+
+/* For tablets */
+@media (min-width: 768px) { 
+
+}
