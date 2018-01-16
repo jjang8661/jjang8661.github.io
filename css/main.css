@@ -43,9 +43,8 @@ body {
 
 .nameSection{
 	padding-top: 4vh;
-	height: 180px;
+	height: 130px;
 	text-align: center;
-	position:relative;
 }
 
 .nameContent{
@@ -83,13 +82,12 @@ body {
 #profilePic {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 3em;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-   	background-image: url("../images/woosuk.jpeg");
-    width: 50%;
-    height: 450px;
-    margin-bottom: 2em;
+   	background-image: url("../images/woosuk2018.jpeg");
+    width: 200px;
+    height: 250px;
+    margin-bottom: 1em;
 }
 
 #profileText {
