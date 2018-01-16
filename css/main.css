@@ -96,6 +96,7 @@ body {
 	margin-right: auto;
 	color: black;
 	margin-bottom: 2em;
+	text-align: center;
 }
 
 #profileText a:link, #profileText a:visited {
